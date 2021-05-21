@@ -1,0 +1,21 @@
+.menu {
+    min-height: 100%;
+}
+
+.card {
+    padding: 20px;
+
+    .img {
+        border-radius: 20px;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .flex-md-column {
+        float: left;
+    }
+}

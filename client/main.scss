@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: #fafafa;
+}
+
+@import '{}/node_modules/bootstrap/scss/bootstrap';
+@import '{}/imports/assets/scss/menu.scss';
